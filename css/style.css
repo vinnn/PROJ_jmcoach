@@ -1,0 +1,181 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+/**********************/
+/* GENERAL BODY STYLE */
+/**********************/
+body {
+    margin: 0;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;    
+}
+
+/*****************/
+/* HEADER STYLES */
+/*****************/
+.header {
+    flex: 0 1 auto;
+
+    background-color: rgb(118, 221, 224);
+    border-bottom-style: solid;
+    height: 80px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+
+    gap: 18px;
+}
+.header-logo {
+    margin-left: 100px;
+    font-size: 24px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+}
+.header-name {
+    font-size: 24px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.header-right {
+    margin-right: 100px;
+}
+ul {
+    list-style-type: none;
+    font-size: 14px;
+
+    display: flex;
+    gap: 22px;
+}
+a {
+    flex: 1 1 auto;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+
+
+/*****************/
+/* CONTN1 STYLES */
+/*****************/
+.contn1 {
+    background-color: rgb(234, 191, 240);
+    padding: 20px 150px;
+
+    flex: 1 1 auto;
+
+    display: flex;
+    justify-content: stretch;
+}
+
+.contn1-left {
+
+    /*I: fix the width initially
+    the flex-basis (so that it keeps 
+    equal width as contn1-right): auto 
+    will use that to start with, 
+    but can shrink and grow as per 
+    grow:1 and shrink:1 */
+    width: 350px;
+    height: 120px;
+    flex: 6 1 auto;
+
+    margin-right: 40px;
+}
+
+.contn1-title {
+    font-weight: bold;
+    color: white;
+    font-size: 28px;
+
+
+    line-height: 1;
+
+}
+.contn1-quotes {
+    color: black;
+    margin: 12px 0;
+    font-size: 14px; 
+
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.contn1-text {
+    color: white;
+    margin: 12px 0;
+    font-size: 14px; 
+}
+.contn1-btn {
+    color: white;
+    font-size: 12px; 
+    background-color: blue;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+
+.contn1-right {
+    background-color: grey;
+    color: white;
+    font-size: 14px;
+
+    /*I: fix the width initially
+    the flex-basis (so that it keeps 
+    equal width as contn1-left): auto 
+    will use that to start with, 
+    but can shrink and grow as per 
+    grow:1 and shrink:1 */
+    width: 350px;
+    height: 120px;
+    flex: 1 1 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-img {
+    flex: 0 1 auto;
+    height: 250px;
+    width: auto;
+}
+
+/*****************/
+/* FOOTER STYLES */
+/*****************/
+.footer {
+    background-color: rgb(118, 221, 224);
+    color: rgb(100, 61, 122);
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-top: auto;
+    margin-bottom: 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
