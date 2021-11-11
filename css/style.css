@@ -134,16 +134,6 @@ a {
 
 
 .contn1-right {
-    background-color: grey;
-    color: white;
-    font-size: 14px;
-
-    /*I: fix the width initially
-    the flex-basis (so that it keeps 
-    equal width as contn1-left): auto 
-    will use that to start with, 
-    but can shrink and grow as per 
-    grow:1 and shrink:1 */
     width: 350px;
     height: 120px;
     flex: 1 1 auto;
