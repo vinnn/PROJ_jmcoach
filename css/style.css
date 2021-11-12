@@ -35,7 +35,7 @@ body {
     gap: 18px;
 }
 .header-logo {
-    margin-left: 100px;
+    margin-left: 50px;
     font-size: 24px;
     font-weight: bold;
     color: red;
@@ -57,14 +57,14 @@ body {
 
 
 .header-right {
-    margin-right: 100px;
+    margin-right: 50px;
 }
 ul {
     list-style-type: none;
     font-size: 18px;
 
     display: flex;
-    gap: 42px;
+    gap: 18px;
 }
 a {
     flex: 1 1 auto;
@@ -82,14 +82,14 @@ a {
     flex: 1 1 auto;
 
     background-color: rgb(216, 189, 221);
-    padding: 60px 100px;
+    padding: 30px 50px;
     border-style: solid;
     border-top-width: 0;
     border-bottom-width: 0;
 
     display: flex;
     /*justify-content: stretch;*/
-    justify-content: center;
+    /* justify-content: center; */
     gap: 20px;
 }
 
@@ -97,8 +97,8 @@ a {
     flex: 1 1 auto;
 
     min-width: 500px;
-    /*margin-right: 40px;*/
-    /*border-style: solid;*/
+    margin-right: 20px;
+    /* border-style: solid; */
 
     display: flex;
     flex-direction: column;
@@ -137,17 +137,17 @@ a {
 .contn1-right {
     flex: 1 1 auto;
 
-    /*border-style: solid;*/
-    margin-left: 40px;
+    /* border-style: solid; */
+    margin-left: 20px;
 
     display: flex;
-    justify-content: stretch;
+    /* justify-content: stretch; */
  /*   align-items: center;  */
     flex-wrap: wrap;
 }
 
 .contn1-img2 {
-    flex: 0 1 auto;
+    flex: 1 1 auto;
     
     margin: 0;
     max-height: 200px;
