@@ -91,6 +91,8 @@ a {
 
 
 
+
+
 /*****************/
 /* CONTN1 STYLES */
 /*****************/
@@ -125,12 +127,14 @@ a {
     color: white;
     font-size: 28px;
     margin-bottom: 30px;
+    text-align: center;
 }
 .contn1-quotes {
     color: black;
     margin: 16px 16px;
     font-size: 18px; 
-
+    text-align: center;
+    
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -139,6 +143,7 @@ a {
     color: white;
     margin: 16px 0;
     font-size: 18px; 
+    text-align: justify;
 }
 .contn1-img1 {
     flex: 0 1 auto;
