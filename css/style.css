@@ -6,90 +6,93 @@
 /* GENERAL BODY STYLE */
 /**********************/
 body {
-    margin: 0;
+    /* margin: 0; */
     min-height: 100vh;
+    /* width: 100vw; */
+
+    /* border-style: solid; */
 
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;   
 }
 
 /*****************/
 /* HEADER STYLES */
 /*****************/
 .header {
-    flex: 0 1 auto;
-
+    padding: 0.5vh 0;
     background-color: rgb(178, 210, 211);
-    height: 80px;
-    border-style: solid;
 
     display: flex;
-    justify-content: flex-start;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+
+    border-style: solid;
 }
 
 .header-left {
+    margin-left: 1vw;
 
     display: flex;
-    flex-direction: row;
-    gap: 18px;
+    gap: 3vw;
 
     /* border-style: solid; */
 }
-.header-logo {
-    margin-left: 50px;
+/* .header-logo {
     font-size: 24px;
     font-weight: bold;
     color: red;
+    padding: 12px;
 
     border-style: solid;
     border-radius: 24px;
-    padding: 10px;
 
-    display: flex;
-    align-items: center;
-}
+    border-style: solid;
+} */
 .header-name {
     font-size: 24px;
     font-weight: bold;
+    padding: 12px;
 
     display: flex;
     align-items: center;
+    
+    /* border-style: solid; */
 }
 
 
 .header-right {
-    margin-right: 50px;
-    margin-left: auto;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    max-width: 1000px;
+
     /* border-style: solid; */
 }
 ul {
     list-style-type: none;
-    font-size: 18px;
+    font-size: 16px;
+    /* margin-left: 1vw; */
+    /* padding-left: 1vw; */
+    margin: 0.5vh 0;
 
     display: flex;
-    gap: 18px;
-    justify-content: flex-start;
+    column-gap: 2vw;
+    /* justify-content: flex-start; */
     /* justify-content: space-between; */
-    /* border-style: solid; */
     flex-wrap: wrap;
+    
+    /* border-style: solid; */
 }
 li {
-    flex: 0 0 auto; 
+
     /* border-style: solid; */
-    margin: -9px 12px;
-    /* flex-wrap: wrap; */
 }
 a {
-    /* flex: 1 2 auto; */
-
     text-decoration: none;
-    color: black;
+
     /* border-style: solid; */
 }
-
-
 
 
 
@@ -97,84 +100,53 @@ a {
 /* CONTN1 STYLES */
 /*****************/
 .contn1 {
-    flex: 1 1 auto;
 
-    background-color: rgb(216, 189, 221);
-    padding: 30px 50px;
-    border-style: solid;
-    border-top-width: 0;
-    border-bottom-width: 0;
-
+    
     display: flex;
-    /*justify-content: stretch;*/
-    /* justify-content: center; */
-    gap: 20px;
+
+
+    border-style: solid;
 }
 
 .contn1-left {
-    flex: 1 1 auto;
-
-    min-width: 500px;
-    margin-right: 20px;
-    /* border-style: solid; */
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex: 2;
+    
+    border-style: solid;
 }
 .contn1-title {
-    font-weight: bold;
-    color: white;
-    font-size: 28px;
-    margin-bottom: 30px;
-    text-align: center;
+
+    
+    /* border-style: solid; */
 }
 .contn1-quotes {
-    color: black;
-    margin: 16px 16px;
-    font-size: 18px; 
-    text-align: center;
+
     
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
+    /* border-style: solid; */
 }
 .contn1-text {
-    color: white;
-    margin: 16px 0;
-    font-size: 18px; 
-    text-align: justify;
+
+    
+    /* border-style: solid; */
 }
 .contn1-img1 {
-    flex: 0 1 auto;
-
-    height: 150px;
-    width: auto;
-    margin: 30px 70px;
-    border-style: solid;
+    width: 100%;
+    height: auto;
+    
+    /* border-style: solid; */
 }
 
 
 .contn1-right {
-    flex: 1 1 auto;
-
-    /* border-style: solid; */
-    margin-left: 20px;
-
-    display: flex;
-    /* justify-content: stretch; */
- /*   align-items: center;  */
-    flex-wrap: wrap;
+    flex: 1;
+    
+    border-style: solid;
 }
 
 .contn1-img2 {
-    flex: 1 1 auto;
+    width: 100%;
+    height: auto;
     
-    margin: 0;
-    max-height: 200px;
-    width: auto;
-
-    border-style: solid;
+    /* border-style: solid; */
 }
 
 /*****************/
@@ -184,15 +156,18 @@ a {
     background-color: rgb(118, 221, 224);
     color: rgb(100, 61, 122);
     font-size: 12px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin-top: auto;
     margin-bottom: 0;
-    border-style: solid;
     border-color: black;
 
-    display: flex;
-    justify-content: center;
+
+    /* display: flex; */
+    /* justify-content: center; */
+    
+    border-style: solid;
 }
 
 
