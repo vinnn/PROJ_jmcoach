@@ -206,7 +206,7 @@ a {
     /* width: 20%; */
     min-width: 10vw;
     max-width: 20vw;
-    /* flex: 1 0 auto; */
+    flex: 1;
     /* height: auto;  */
     
     border-style: solid;
