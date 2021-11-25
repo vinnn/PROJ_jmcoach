@@ -204,10 +204,10 @@ a {
 
 .img1-contact {
     /* width: 20%; */
-    min-width: 10vw;
+    /* min-width: 10vw; */
     max-width: 20vw;
     flex: 1;
-    /* height: auto;  */
+    height: auto; 
     
     border-style: solid;
 
