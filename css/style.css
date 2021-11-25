@@ -8,8 +8,8 @@
 body {
     /* margin: 0; */
     min-height: 100vh;
-    min-width: 460px;
-    /* width: 100vw; */
+    /* min-width: 460px; */
+    min-width: 96vw;
 
     /* border-style: solid; */
 
