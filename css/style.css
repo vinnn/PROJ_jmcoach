@@ -217,3 +217,9 @@ a {
     border-style: solid;
 
 }
+
+
+p {
+    /* justify-content: left; */
+    text-align: left;
+}
