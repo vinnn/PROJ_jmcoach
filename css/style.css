@@ -99,7 +99,14 @@ a {
     list-style-type: disc;
     display: flex;
     flex-direction: column;
+
+    /* width: 70%; */
+    /* font-size: 18px; */
+    /* text-align: justify; */
+    /* margin: 8px 12px; */
+    /* border-style: solid; */
 }
+
 .contn1-text-list {
     font-size: 18px;
     text-align: justify;
@@ -110,7 +117,15 @@ a {
     /* border-style: solid; */
 }
 
+.contn1-text-list2 {
+    font-size: 18px;
+    text-align: justify;
+    margin: 8px 12px;
+    margin-left: 0%;
+    margin-right: auto;
 
+    /* border-style: solid; */
+}
 
 /*****************/
 /* CONTN1 STYLES */
@@ -150,7 +165,6 @@ a {
     padding: 4px 0;  
 }
 .contn1-text {
-
     width: 70%;
     font-size: 18px;
     text-align: justify;
